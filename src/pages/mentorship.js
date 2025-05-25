@@ -9,10 +9,12 @@ import TimelineItem from "../components/TimelineItem"
 import MentorsCard from "../components/MentorsCard"
 import Gallery from "../components/Gallery"
 import TestimonialCard from "../components/TestimonialCard"
+import Team from "../components/Team"
 
-import mentorshipTimeline from "../data/mentorship-timeline-2024"
+import mentorshipTimeline from "../data/mentorship-timeline-2025"
 import programsFAQ from "../data/mentorship-faq.js"
 import mentorshipTestimonials from "../data/mentorship-testimonials.js"
+import team from "../data/team.js"
 
 import Modal from "../components/Modal"
 
@@ -34,15 +36,12 @@ export default function Home() {
         <div className="container py-6">
           <div className="row gy-6">
             <div className="col-md-6">
-              <h1 className="large-line-height">TechLadies Mentorship 2024</h1>
+              <h1 className="large-line-height">TechLadies x WomenDevsSG Mentorship Program 2025</h1>
               <p className="mb-4 text-body large-line-height">
-                TechLadies Mentorship provides women with personal career
-                guidance from experienced industry practitioners as they grow
-                their career in Software Engineering, UI/UX Design, Data
-                Science/Engineering/Analysis and Product Management.
+              The TechLadies Mentorship Program empowers women with personal career guidance from experienced industry professionals in Software Engineering, UI/UX Design, Data Science/AI, and Product Management.
                 <br />
                 <br />
-                This year, in collaboration with{" "}
+                In 2025, we're proud to collaborate once again with {" "}
                 <a
                   href="https://womendevssg.github.io/"
                   target="_blank"
@@ -50,37 +49,31 @@ export default function Home() {
                 >
                   Women Devs Singapore
                 </a>
-                , we aim to bring together like-minded women of the tech
-                industry to learn, exchange ideas and hence drive impact. There
-                will be one-to-one mentoring sessions between a mentor and
-                mentee. We will be piloting a &quot;Speed Mentorship&quot; style
-                to match our mentors and mentee. The minimum commitment level
-                required is one mentoring session per month from August to
-                November 2024.
+                {" "}to connect like-minded mentors and mentees to learn, grow, and create meaningful impact together. The program includes one-on-one mentoring sessions between mentors and mentees, with a new “Speed Mentorship” pilot to help find the right match more effectively.
                 <br />
                 <br />
                 Registration for the TechLadies x WomenDevsSG Mentorship Program
-                2024 is now Open!
+                2025 is now open!
               </p>
               <div className="row">
                 <div className="col-md-6">
                   <a
                     className="btn btn-primary"
                     target="_blank"
-                    href="https://forms.gle/EVja17W77Czn8pyn6"
+                    href="https://docs.google.com/forms/d/e/1FAIpQLSeT2tpYkyVvhWf6tkLmfIotCtTkIos528vDs65guEqFJybkRQ/viewform?usp=sharing"
                     rel="noreferrer"
                   >
-                    Sign up as a Mentor!
+                    Apply as a Mentor!
                   </a>
                 </div>
                 <div className="col-md-6">
                   <a
                     className="btn btn-primary"
                     target="_blank"
-                    href="https://forms.gle/9Zfp9Kzf58FNcrNJ8"
+                    href="https://docs.google.com/forms/d/e/1FAIpQLSf7HOH85UGMCjHqXQgE99OmyCLBKSzyTcIPt0pnYv7s-Gnhpw/viewform?usp=sharing"
                     rel="noreferrer"
                   >
-                    Sign up as a Mentee!
+                    Apply as a Mentee!
                   </a>
                 </div>
               </div>
@@ -105,7 +98,7 @@ export default function Home() {
                   alt="data science engineering"
                   src="/icons/icon_datascience.png"
                 />
-                <h6>Data Science / Engineering</h6>
+                <h6>Data Science / AI</h6>
               </div>
               <div className="col-md-3 text-center">
                 <img
@@ -193,7 +186,7 @@ export default function Home() {
 
         <div className="bg-gray">
           <div className="container py-6">
-            <h2 className="mb-5 text-center">Program Timeline 2024</h2>
+            <h2 className="mb-5 text-center">Program Timeline 2025</h2>
             <div className="row gy-4">
               <Timeline>
                 {mentorshipTimeline.map(({ date, title, description }) => (
@@ -231,29 +224,24 @@ export default function Home() {
           <div className="container py-6">
             <div className="row">
               <h2 className="text-center mb-5">
-                Meet Our TechLadies x WomenDevsSG Mentorship Core Team 2024
+                Meet Our Mentorship Core Team 2025
               </h2>
-              <div className="col-md-3 text-center">
-                <img
-                  className="thumbnail thumbnail-xl mb-2 "
-                  alt="diya"
-                  src="/team/bootdiya.png"
-                />
-              </div>
-              <div className="col-md-3 text-center">
-                <img
-                  className="thumbnail thumbnail-xl mb-2 "
-                  alt="victoria"
-                  src="/team/victoria.png"
-                />
-              </div>
+              {team.map(
+                ({ thumbnail, name }) => (
+                  <Team
+                    key={name}
+                    thumbnail={thumbnail}
+                    name={name}
+                  />
+                )
+              )}
             </div>
           </div>
         </div>
 
         <div className="container py-6">
           <div className="row">
-            <h2 className="mb-4 text-center">Mentors from 2022</h2>
+            <h2 className="mb-4 text-center">Mentors from 2024</h2>
             <div className="row gy-4">
               <MentorsCard
                 dataMessage="software"

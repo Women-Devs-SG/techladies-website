@@ -44,7 +44,7 @@ export default function Home() {
               Discover TechLadies&apos; various programs
             </h1>
             <p className="text-body mb-4 large-line-height">
-              We are currently planning for new programs for 2024.
+              We are currently planning for new programs. Stay tuned!
             </p>
             {/* <Quiz data={quiz} /> */}
           </div>
@@ -94,11 +94,11 @@ export default function Home() {
           <div id="mentorship" className="row gy-5">
             <div className="col-lg-6 col-md-5">
               <img
-                alt="TechLadies Mentorship"
+                alt="TechLadies Mentorship Program"
                 className="thumbnail thumbnail-xl mb-4"
                 src="/icons/icon_TLmentorship.png"
               />
-              <h3 className="mb-4 h4">TechLadies Mentorship</h3>
+              <h3 className="mb-4 h4">TechLadies Mentorship Program</h3>
               <p className="mb-4">Duration: 12 weeks</p>
               <p className="mb-4">
                 A 3-month mentorship program that pairs women who are

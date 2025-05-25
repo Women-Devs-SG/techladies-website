@@ -18,8 +18,9 @@ export default [
         The TechLadies Mentorship is designed to help women with existing domain
         knowledge in either Software Engineering, UI/UX Design, Data
         Science/Engineering/Analysis, or Product Management who are looking for
-        guidance on how to get to the next level in their careers. This could be
-        building influence, preparing for job interviews, or growing a network.
+        guidance on how to get to the next level in their careers. 
+        <br/><br/>
+        This could be building influence, preparing for job interviews, or growing a network.
         This is not a program for women with zero knowledge in either of the
         fields listed above.
       </>
@@ -30,8 +31,8 @@ export default [
     item: <>Is the TechLadies Mentorship program only for women?</>,
     details: (
       <>
-        Yes! As we are trying to improve the gender ratio in the tech industry,
-        the mentorship program is only for women and those who identify as one.
+        For mentees, yes! As we are trying to improve the gender ratio in the tech industry,
+        the mentorship program is only for women and those who identify as one. For mentors, we encourage more female mentors to apply but male mentors are welcome too!
       </>
     ),
   },
@@ -40,7 +41,7 @@ export default [
     item: <>I&apos;m not a Singaporean, can I still join this program?</>,
     details: (
       <>
-        Yea, sure! As long as you can commit to the program, you are welcome to
+        Yea, sure! As long as you are based in Singapore and can commit to the program, you are welcome to
         apply!
       </>
     ),
@@ -52,7 +53,9 @@ export default [
       <>
         We will be matching you with your mentor based on your area of focus,
         mentorship goals and industry relevance, details we will be asking of
-        you through the application form. During the Speed Mentorship event, you
+        you through the application form.
+        <br/><br/>
+        During the Speed Mentorship event, you
         will be able to speak to every mentor present and provide us your top
         preferences. We will then assign the mentor based on matching criteria
         and preference.
