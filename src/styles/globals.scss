@@ -31,13 +31,17 @@ a {
 
   &.thumbnail-sm {
     width: 2rem;
+    height: 2rem;
   }
+
   &.thumbnail-md {
     width: 2.6rem;
+    height: 2.6rem;
   }
 
   &.thumbnail-lg {
     width: 5rem;
+    height: 5rem;
 
     @media (max-width: 375px) {
       margin: 0 1rem 1rem 1rem;
@@ -46,6 +50,7 @@ a {
 
   &.thumbnail-xl {
     width: 10rem;
+    height: 10rem;
   }
 
   &.thumbnail-xxl {

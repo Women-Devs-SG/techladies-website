@@ -1,5 +1,6 @@
 import { useState } from "react"
 import Head from "next/head"
+import Image from "next/image"
 
 import { mentorsData } from "../data/mentorship-2021-mentors"
 
@@ -41,7 +42,7 @@ export default function Home() {
               The TechLadies Mentorship Program empowers women with personal career guidance from experienced industry professionals in Software Engineering, UI/UX Design, Data Science/AI, and Product Management.
                 <br />
                 <br />
-                In 2025, we're proud to collaborate once again with {" "}
+                In 2025, we&apos;re proud to collaborate once again with {" "}
                 <a
                   href="https://womendevssg.github.io/"
                   target="_blank"
@@ -79,10 +80,11 @@ export default function Home() {
               </div>
             </div>
             <div className="col-md-5  offset-md-1">
-              <img
-                alt="mentorship illustration"
+              <Image
                 className="img-fluid"
+                alt="mentorship illustration"
                 src="/illustrations/illus_mentorship.png"
+                width={600} height={400}
               />
             </div>
           </div>
@@ -93,34 +95,38 @@ export default function Home() {
             <div className="row">
               <h2 className="text-center mb-5">Mentorship Focus Areas</h2>
               <div className="col-md-3 text-center">
-                <img
+                <Image
                   className="thumbnail thumbnail-xl mb-2 "
                   alt="data science engineering"
                   src="/icons/icon_datascience.png"
+                  width={120} height={120}
                 />
                 <h6>Data Science / AI</h6>
               </div>
               <div className="col-md-3 text-center">
-                <img
+                <Image
                   className="thumbnail thumbnail-xl mb-2 "
                   alt="product management"
                   src="/icons/icon_productmanagement.png"
+                  width={120} height={120}
                 />
                 <h6>Product Management</h6>
               </div>
               <div className="col-md-3 text-center">
-                <img
+                <Image
                   className="thumbnail thumbnail-xl mb-2 "
                   alt="software engineering"
                   src="/icons/icon_softwaredevelopment.png"
+                  width={120} height={120}
                 />
                 <h6>Software Engineering</h6>
               </div>
               <div className="col-md-3 text-center">
-                <img
+                <Image
                   className="thumbnail thumbnail-xl mb-2 "
                   alt="UI UX"
                   src="/icons/icon_UIUX.png"
+                  width={120} height={120}
                 />
                 <h6>UI / UX</h6>
               </div>
@@ -132,17 +138,19 @@ export default function Home() {
           <div className="row">
             <h2 className="text-center mb-5">Why join us as a Mentor?</h2>
             <div className="container">
-              <img
+              <Image
                 className="container mb-6"
                 alt="mentorship growth"
                 src="/photos/team2.jpg"
+                width={600} height={550}
               />
             </div>
             <div className="col-md-3 text-center">
-              <img
+              <Image
                 className="thumbnail thumbnail-lg mb-2 "
                 alt="product management"
                 src="/img/paper-plane.svg"
+                width={64} height={64}
               />
               <h6>
                 You are passionate about empowering others to succeed in their
@@ -150,20 +158,22 @@ export default function Home() {
               </h6>
             </div>
             <div className="col-md-3 text-center">
-              <img
+              <Image
                 className="thumbnail thumbnail-md mb-2 "
                 alt="product management"
                 src="/img/paper-plane.svg"
+                width={48} height={48}
               />
               <h6>
                 You desire to make a difference for aspiring women in Tech.
               </h6>
             </div>
             <div className="col-md-3 text-center">
-              <img
+              <Image
                 className="thumbnail thumbnail-lg mb-2 "
                 alt="product management"
                 src="/img/paper-plane.svg"
+                width={64} height={64}
               />
               <h6>
                 You believe mentoring is a two-way learning - for you and your
@@ -171,10 +181,11 @@ export default function Home() {
               </h6>
             </div>
             <div className="col-md-3 text-center">
-              <img
+              <Image
                 className="thumbnail thumbnail-md mb-2 "
                 alt="product management"
                 src="/img/paper-plane.svg"
+                width={48} height={48}
               />
               <h6>
                 You want to contribute to the Tech community with your time and
@@ -283,10 +294,11 @@ export default function Home() {
         <div className="container py-6">
           <div className="row gy-6">
             <div className="col-md-5">
-              <img
+              <Image
                 alt="Contact us"
                 className="img-fluid"
-                src="../illustrations/illus_contactus.png"
+                src="/illustrations/illus_contactus.png"
+                width={600} height={400}
               />
             </div>
             <div className="col-md-6 offset-md-1 d-flex flex-column align-items-start justify-content-center">
@@ -319,10 +331,11 @@ export default function Home() {
                   ({ image, title, link, description }) => (
                     <div className="row gy-3 mb-4" key={title}>
                       <div className="col-md-2">
-                        <img
+                        <Image
                           className="thumbnail thumbnail-lg"
                           alt={title + " image"}
                           src={image}
+                          width={120} height={120}
                         />
                       </div>
 

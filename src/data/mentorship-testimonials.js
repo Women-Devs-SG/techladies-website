@@ -1,8 +1,8 @@
-export default [
+const mentorshipTestimonials = [
   {
     image: "/patterns/Patternspattern2.png",
-    thumbnail: "../team/jill.png",
-    name: "Jill Quek, Mentor (2019)",
+    thumbnail: "/team/jill.png",
+    name: "Jill Quek, Mentor (2024)",
     message: (
       <>
         Great organisation! Clear communication and enough guidance to keep us
@@ -13,8 +13,8 @@ export default [
 
   {
     image: "/patterns/Patternspattern3.png",
-    thumbnail: "../team/mentorship2020/bridgetlee.jpg",
-    name: "Bridget Lee, Mentee (2020)",
+    thumbnail: "/team/mentorship2020/bridgetlee.jpg",
+    name: "Bridget Lee, Mentee (2024)",
     message: (
       <>
         I enjoyed learning from and socializing with an industry expert. My
@@ -25,8 +25,8 @@ export default [
 
   {
     image: "/patterns/Patternspattern4.png",
-    thumbnail: "../team/mentorship2020/maryana.jpeg",
-    name: "Maryana Hermawan, Mentee (2020)",
+    thumbnail: "/team/mentorship2020/maryana.jpeg",
+    name: "Maryana Hermawan, Mentee (2024)",
     message: (
       <>
         The TechLadies Mentorship program gave me an useful overview on starting
@@ -34,4 +34,6 @@ export default [
       </>
     ),
   },
-]
+];
+
+export default mentorshipTestimonials;

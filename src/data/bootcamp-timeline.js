@@ -1,4 +1,4 @@
-export default [
+const bootcampTimeline = [
   {
     date: "4 July, 11am (SGT)",
     title: "Info Session & Application Opens",
@@ -65,4 +65,6 @@ export default [
       </>
     ),
   },
-]
+];
+
+export default bootcampTimeline;

@@ -1,5 +1,6 @@
 import { useState } from "react"
 import clsx from "clsx"
+import Image from "next/image"
 
 function BootcampBuilders(props) {
   const { data } = props
@@ -19,10 +20,12 @@ function BootcampBuilders(props) {
               <div className="col-12 col-md-4" key={index}>
                 <div className="d-flex flex-row">
                   <div className="col-md-4 pr-3">
-                    <img
+                    <Image
                       className="thumbnail thumbnail-lg"
                       alt={title + " image"}
                       src={image}
+                      width={120}
+                      height={120}
                     />
                   </div>
                   <div className="col-md-8">
@@ -46,10 +49,12 @@ function BootcampBuilders(props) {
               <div className="col-12 col-md-4" key={index}>
                 <div className="row">
                   <div className="col-md-4">
-                    <img
+                    <Image
                       className="thumbnail thumbnail-lg"
                       alt={title + " image"}
                       src={image}
+                      width={120}
+                      height={120}
                     />
                   </div>
                   <div className="col-md-8">

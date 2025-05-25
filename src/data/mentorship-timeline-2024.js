@@ -1,4 +1,4 @@
-export default [
+const mentorshipTimeline2024 = [
   {
     date: "June 2024",
     title: "Mentorship Applications Open",
@@ -32,3 +32,5 @@ export default [
     ),
   },
 ]
+
+export default mentorshipTimeline2024;

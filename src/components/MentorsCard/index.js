@@ -1,5 +1,6 @@
 import styles from "./index.module.scss"
 import clsx from "clsx"
+import Image from 'next/image'
 
 function MentorsCard(props) {
   const { handleViewMentors, dataMessage, mentors, icon } = props
@@ -7,28 +8,23 @@ function MentorsCard(props) {
     <div className="col-lg-3 col-md-6">
       <div className="card">
         <div className="card-body card-body-sm">
-          <img
+          <Image
             className="thumbnail thumbnail-lg mx-auto d-block space-bottom-10"
             alt="Mentors"
             src={icon}
+            width={120} height={120}
           />
           <h6 className="text-center my-4">{mentors.title}</h6>
           <div className="d-flex flex-row flex-wrap justify-content-center">
-            <img
-              className="thumbnail thumbnail-md"
-              alt="Denise"
-              src={mentors.mentors[0].image}
-            />
-            <img
-              className="thumbnail thumbnail-md"
-              alt="Archanaa"
-              src={mentors.mentors[1].image}
-            />
-            <img
-              className="thumbnail thumbnail-md"
-              alt="waihon"
-              src={mentors.mentors[2].image}
-            />
+            {mentors.mentors.map((mentor, index) => (
+              <Image
+                key={index}
+                className="thumbnail thumbnail-sm mx-1 mb-2"
+                alt={mentor.name}
+                src={mentor.image}
+                width={50} height={50}
+              />
+            ))}
           </div>
           <div className={clsx(styles.viewMentors)}>
             <button

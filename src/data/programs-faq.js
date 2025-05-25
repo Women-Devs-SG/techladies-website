@@ -1,4 +1,4 @@
-export default [
+const programsFaq = [
   {
     key: "a",
     item: <>Is TechLadies only for women?</>,
@@ -59,4 +59,6 @@ export default [
       </>
     ),
   },
-]
+];
+
+export default programsFaq;

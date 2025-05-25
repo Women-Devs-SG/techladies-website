@@ -1,20 +1,22 @@
-export default [
+const team = [
   {
-    thumbnail: "../team/bootdiya.png",
+    thumbnail: "/team/bootdiya.png",
     name: "Diya Naresh",
   },
 
   {
-    thumbnail: "../team/victoria.png",
+    thumbnail: "/team/victoria.png",
     name: "Victoria Lo",
   },
 
   {
-    thumbnail: "../team/toshal.png",
+    thumbnail: "/team/toshal.png",
     name: "Toshal Patel",
   },
   {
-    thumbnail: "../team/mentorship2021/softwareengineering/salonikaur.png",
+    thumbnail: "/team/mentorship2021/softwareengineering/salonikaur.png",
     name: "Saloni Kaur",
   },
 ]
+
+export default team;

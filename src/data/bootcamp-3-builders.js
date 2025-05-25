@@ -1,4 +1,4 @@
-export default [
+const bootcamp3Builders = [
   {
     image: "/team/bootcamp3/michael.jpg",
     name: "Michael Cheng",
@@ -89,3 +89,5 @@ export default [
     ),
   },
 ]
+
+export default bootcamp3Builders

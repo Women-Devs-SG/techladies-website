@@ -1,4 +1,4 @@
-export default [
+const bootcamp7Builders = [
   {
     image: "/team/bootcamp7/jeslyn.png",
     name: "Jeslyn",
@@ -89,4 +89,6 @@ export default [
       </>
     ),
   },
-]
+];
+
+export default bootcamp7Builders;

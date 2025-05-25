@@ -1,5 +1,6 @@
 import Head from "next/head"
 import NavLink from "../components/NavLink"
+import Image from 'next/image'
 
 export default function Home() {
   return (
@@ -11,10 +12,11 @@ export default function Home() {
         <div className="container py-6">
           <div className="row gy-6">
             <div className="col-md-6">
-              <img
+              <Image
                 alt="About TechLadies"
                 className="about-image mb-4"
                 src="/illustrations/illus_aboutus.png"
+                width={600} height={400}
               />
             </div>
             <div className="col-md-6">
@@ -46,10 +48,11 @@ export default function Home() {
           <div className="container py-6">
             <div className="row gy-6">
               <div className="col-md-5 offset-md-1 order-md-last">
-                <img
+                <Image
                   alt="TODO: REPLACE ME"
                   className="img-fluid"
                   src="/photos/history.jpg"
+                  width={400} height={300}
                 />
               </div>
               <div className="col-md-6 order-md-first d-flex flex-column align-items-start justify-content-center">
@@ -86,15 +89,17 @@ export default function Home() {
                     Leads TechLadies in Singapore, Malaysia, and Vietnam.
                   </p>
                   <div className="mb-4 d-flex flex-row flex-wrap">
-                    <img
+                    <Image
                       className="thumbnail thumbnail-lg"
                       alt="Elisha Tan"
                       src="/team/elisha.jpg"
+                      width={120} height={120}
                     />
-                    <img
+                    <Image
                       className="thumbnail thumbnail-lg"
                       alt="Nicole"
                       src="/team/bootnicole.png"
+                      width={120} height={120}
                     />
                   </div>
                   <a href="mailto:hello@techladies.co">Contact us!</a>
@@ -109,15 +114,29 @@ export default function Home() {
                     Leads the TechLadies Mentorship program.
                   </p>
                   <div className="mb-4 d-flex flex-row flex-wrap">
-                    <img
+                    <Image
                       className="thumbnail thumbnail-lg"
                       alt="Diya"
                       src="/team/bootdiya.png"
+                      width={120} height={120}
                     />
-                    <img
+                    <Image
                       className="thumbnail thumbnail-lg"
-                      alt="Cheryl"
-                      src="/team/mentorshipcheryl.png"
+                      alt="Victoria"
+                      src="/team/victoria.png"
+                      width={120} height={120}
+                    />
+                    <Image
+                      className="thumbnail thumbnail-lg"
+                      alt="Toshal"
+                      src="/team/toshal.png"
+                      width={120} height={120}
+                    />
+                    <Image
+                      className="thumbnail thumbnail-lg"
+                      alt="Saloni"
+                      src="/team/mentorship2021/softwareengineering/salonikaur.png"
+                      width={120} height={120}
                     />
                   </div>
                   <a href="mailto:mentorship@techladies.co">
@@ -132,15 +151,17 @@ export default function Home() {
                   <h6 className="card-title">Bootcamp Team</h6>
                   <p className="card-text">Leads the TechLadies Bootcamp.</p>
                   <div className="mb-4 d-flex flex-row flex-wrap">
-                    <img
+                    <Image
                       className="thumbnail thumbnail-lg"
                       alt="Valentina"
                       src="/team/valentina.png"
+                      width={120} height={120}
                     />
-                    <img
+                    <Image
                       className="thumbnail thumbnail-lg"
                       alt="Charu"
                       src="/team/coreteam2022/comm_charu.jpeg"
+                      width={120} height={120}
                     />
                   </div>
                   <a href="mailto:hello@techladies.co">
@@ -157,10 +178,11 @@ export default function Home() {
                     Grows our TechLadies Community online.
                   </p>
                   <div className="mb-4 d-flex flex-row flex-wrap">
-                    <img
+                    <Image
                       className="thumbnail thumbnail-lg"
                       alt="Xena"
                       src="/team/Xena.png"
+                      width={120} height={120}
                     />
                   </div>
                   <a href="mailto:hello@techladies.co">
@@ -175,15 +197,17 @@ export default function Home() {
                   <h6 className="card-title">Partnerships Team</h6>
                   <p className="card-text">Leads partnership conversations.</p>
                   <div className="mb-4">
-                    <img
+                    <Image
                       className="thumbnail thumbnail-lg"
                       alt="Pauline"
                       src="/team/commpauline.jpg"
+                      width={120} height={120}
                     />
-                    <img
+                    <Image
                       className="thumbnail thumbnail-lg"
                       alt="Xi Yi"
                       src="/team/coreteam2022/boot_xi_yi.png"
+                      width={120} height={120}
                     />
                   </div>
                   <a href="mailto:hello@techladies.co">
@@ -197,10 +221,11 @@ export default function Home() {
         <div className="container py-6">
           <div className="row gy-6">
             <div className="col-md-5">
-              <img
+              <Image
                 alt="TODO: REPLACE ME"
                 className="img-fluid"
                 src="/photos/team.jpg"
+                width={400} height={300}
               />
             </div>
             <div className="col-md-6 offset-md-1 d-flex flex-column align-items-start justify-content-center">

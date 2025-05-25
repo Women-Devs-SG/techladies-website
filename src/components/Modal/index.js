@@ -21,7 +21,7 @@ function Modal({ children, isShown, onClose, title }) {
       $modalBackDrop.parentNode.removeChild($modalBackDrop)
       $modalBackDrop = null
     }
-  }, [isShown, $modalBackDrop])
+  }, [isShown])
 
   return (
     <div

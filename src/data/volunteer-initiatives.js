@@ -1,4 +1,4 @@
-export default [
+const volunteerInitiatives = [
   {
     image: "/icons/icon_TLmentorship.png",
     title: "TechLadies Mentorship",
@@ -43,4 +43,6 @@ export default [
       </>
     ),
   },
-]
+];
+
+export default volunteerInitiatives;

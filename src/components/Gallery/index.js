@@ -16,7 +16,7 @@ function Gallery({ children, startIndex = 0, intervalMs = 5000 }) {
     return () => {
       clearTimeout(timer)
     }
-  }, [selectedIndex])
+  }, [selectedIndex, children.length, intervalMs])
 
   return (
     <div>

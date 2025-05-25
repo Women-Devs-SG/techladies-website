@@ -1,4 +1,4 @@
-export default [
+const mentorshipFaq = [
   {
     key: "a",
     item: <>Who are the mentors in this program?</>,
@@ -88,3 +88,5 @@ export default [
     ),
   },
 ]
+
+export default mentorshipFaq;

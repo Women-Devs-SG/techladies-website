@@ -1,4 +1,5 @@
 import Head from "next/head"
+import Image from "next/image"
 
 import { useEffect } from "react"
 
@@ -23,20 +24,22 @@ export default function Home() {
     preloadImages(
       mentorshipTestimonials.map((testimonial) => testimonial.image)
     )
-  }, [bootcampTestimonials, mentorshipTestimonials])
+  }, [])
 
   return (
     <div>
       <Head>
         <title>Our Programs | TechLadies</title>
       </Head>
-      <div className="container py-6">
+      {/* <div className="container py-6">
         <div className="row gy-6">
           <div className="col-lg-5 col-md-6">
-            <img
+            <Image
               alt="Learn about TechLadies' programs"
               className="img-fluid mb-4"
               src="/illustrations/illus_programmes.png"
+              width={600}
+              height={400}
             />
           </div>
           <div className="col-lg-6 offset-lg-1 col-md-6">
@@ -46,18 +49,20 @@ export default function Home() {
             <p className="text-body mb-4 large-line-height">
               We are currently planning for new programs. Stay tuned!
             </p>
-            {/* <Quiz data={quiz} /> */}
+            <Quiz data={quiz} />
           </div>
         </div>
-      </div>
+      </div> */}
       {/* <div className="bg-gray">
         <div id="bootcamp" className="container py-6">
           <div className="row gy-5">
             <div className="col-md-5 offset-md-1 col-lg-6 offset-lg-1 order-md-last">
-              <img
+              <Image
                 alt="TechLadies Bootcamp"
                 className="thumbnail thumbnail-xl mb-4"
                 src="/icons/icon_TLbootcamp.png"
+                width={200}
+                height={200}
               />
               <h3 className="mb-4 h4">TechLadies Bootcamp Workshops</h3>
               <p className="mb-4">Duration: 5 weekends</p>
@@ -93,12 +98,14 @@ export default function Home() {
         <div className="container py-6">
           <div id="mentorship" className="row gy-5">
             <div className="col-lg-6 col-md-5">
-              <img
+              <Image
                 alt="TechLadies Mentorship Program"
                 className="thumbnail thumbnail-xl mb-4"
                 src="/icons/icon_TLmentorship.png"
+                width={200}
+                height={200}
               />
-              <h3 className="mb-4 h4">TechLadies Mentorship Program</h3>
+              <h2 className="mb-4 h3">TechLadies x WDS Mentorship Program</h2>
               <p className="mb-4">Duration: 12 weeks</p>
               <p className="mb-4">
                 A 3-month mentorship program that pairs women who are
@@ -108,7 +115,7 @@ export default function Home() {
 
               <button className="btn btn-primary">
                 <NavLink href="/mentorship/">
-                  <a className="white-text">I&apos;m Interested!</a>
+                  <a className="white-text">Apply Now!</a>
                 </NavLink>
               </button>
             </div>
@@ -133,10 +140,12 @@ export default function Home() {
       <div className="container py-6 text-center">
         <div className="row gy-6">
           <div id="meet" className="col-md-5 offset-md-1">
-            <img
+            <Image
               alt="TechLadies Meet"
               className="thumbnail thumbnail-xl mb-4"
               src="/icons/icon_TLmeet.png"
+              width={200}
+              height={200}
             />
             <h3 className="mb-4 h4">TechLadies Meet</h3>
             <p className="mb-4">
@@ -154,10 +163,12 @@ export default function Home() {
             </a>
           </div>
           <div id="community" className="col-md-5">
-            <img
+            <Image
               alt="TechLadies Community"
               className="thumbnail thumbnail-xl mb-4"
               src="/icons/icon_TLcommunity.png"
+              width={200}
+              height={200}
             />
             <h3 className="mb-4 h4">TechLadies Community</h3>
             <p className="mb-4">
@@ -180,10 +191,12 @@ export default function Home() {
         <div className="container py-6">
           <div className="row gy-6">
             <div className="col-md-5 offset-md-1 order-md-last">
-              <img
+              <Image
                 alt="TODO: REPLACE ME"
                 className="img-fluid"
                 src="/photos/coach.jpg"
+                width={400}
+                height={300}
               />
             </div>
             <div className="col-md-6 order-md-first d-flex flex-column align-items-start justify-content-center">

@@ -1,4 +1,4 @@
-export default [
+const volunteeringFaq = [
   {
     key: "a",
     item: <>Who can volunteer with TechLadies?</>,
@@ -89,4 +89,6 @@ export default [
       </>
     ),
   },
-]
+];
+
+export default volunteeringFaq;
