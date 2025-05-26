@@ -14,11 +14,11 @@ module.exports = {
         destination: '/bootcamp',
         permanent: true,
       },
-      {
-        source: '/mentorship',
-        destination: '/mentorship',
-        permanent: true,
-      },
+      // {
+      //   source: '/mentorship',
+      //   destination: '/mentorship',
+      //   permanent: true,
+      // },
     ]
   },
 }
