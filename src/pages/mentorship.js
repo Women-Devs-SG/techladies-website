@@ -137,12 +137,14 @@ export default function Home() {
         <div className="container py-6">
           <div className="row">
             <h2 className="text-center mb-5">Why join us as a Mentor?</h2>
-            <div className="container">
+            <div className="container mb-6">
               <Image
-                className="container mb-6"
                 alt="mentorship growth"
                 src="/photos/team2.jpg"
-                width={600} height={550}
+                width={0}
+                height={0}
+                sizes="100vw"
+                style={{ width: "100%", height: "auto" }}
               />
             </div>
             <div className="col-md-3 text-center">
