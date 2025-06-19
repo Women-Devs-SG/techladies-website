@@ -15,7 +15,7 @@ function MentorsCard(props) {
             width={120} height={120}
           />
           <h6 className="text-center my-4">{mentors.title}</h6>
-          <div className="d-flex flex-row flex-wrap justify-content-center">
+          {/* <div className="d-flex flex-row flex-wrap justify-content-center">
             {mentors.mentors.map((mentor, index) => (
               <Image
                 key={index}
@@ -25,7 +25,7 @@ function MentorsCard(props) {
                 width={50} height={50}
               />
             ))}
-          </div>
+          </div> */}
           <div className={clsx(styles.viewMentors)}>
             <button
               type="button"

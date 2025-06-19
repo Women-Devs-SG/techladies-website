@@ -2,7 +2,7 @@ import { useState } from "react"
 import Head from "next/head"
 import Image from "next/image"
 
-import { mentorsData } from "../data/mentorship-2021-mentors"
+import { mentorsData } from "../data/mentorship-2025-mentors"
 
 import Accordion from "../components/Accordion"
 import Timeline from "../components/Timeline"
@@ -254,7 +254,7 @@ export default function Home() {
 
         <div className="container py-6">
           <div className="row">
-            <h2 className="mb-4 text-center">Mentors from 2024</h2>
+            <h2 className="mb-4 text-center">Our Mentors</h2>
             <div className="row gy-4">
               <MentorsCard
                 dataMessage="software"
@@ -332,14 +332,14 @@ export default function Home() {
                 {mentorsData[selectedTopic].mentors.map(
                   ({ image, title, link, description }) => (
                     <div className="row gy-3 mb-4" key={title}>
-                      <div className="col-md-2">
+                      {/* <div className="col-md-2">
                         <Image
                           className="thumbnail thumbnail-lg"
                           alt={title + " image"}
                           src={image}
                           width={120} height={120}
                         />
-                      </div>
+                      </div> */}
 
                       <div className="col-md-10">
                         <h6 className="mb-3">
