@@ -7,7 +7,7 @@ export const mentorsData = {
         link: "https://www.linkedin.com/in/sravyachodisetti/",
         description: (
           <>
-            I'm an ambitious engineering leader with 10+ years of industry experience. I have always been fascinated by the world around, the everyday interactions and the role of technology in making life effortless. This interest has driven me to develop a keen eye for user design and user experience, along with making my visions into reality by building them with code. I enjoy tackling complex problems and finding solutions and intricate edge case scenarios for the problems and actively use technology for the same.
+            I&apos;m an ambitious engineering leader with 10+ years of industry experience. I have always been fascinated by the world around, the everyday interactions and the role of technology in making life effortless. This interest has driven me to develop a keen eye for user design and user experience, along with making my visions into reality by building them with code. I enjoy tackling complex problems and finding solutions and intricate edge case scenarios for the problems and actively use technology for the same.
           </>
         ),
       },
@@ -113,7 +113,7 @@ My journey started in psychology and counselling, working with special needs chi
         link: "https://www.linkedin.com/in/moon-gee",
         description: (
           <>
-            I am a product designer at The Business Times, where I lead the end-to-end design processes and user flows to improve the experiences for the digital news products. I have a bachelor's degree in computer science from Nanyang Technological University, and I am certified as a Scrum Product Owner and a ScrumMaster by Scrum Alliance.
+            I am a product designer at The Business Times, where I lead the end-to-end design processes and user flows to improve the experiences for the digital news products. I have a bachelors degree in computer science from Nanyang Technological University, and I am certified as a Scrum Product Owner and a ScrumMaster by Scrum Alliance.
           </>
         ),
       },
@@ -122,11 +122,11 @@ My journey started in psychology and counselling, working with special needs chi
         link: "https://www.linkedin.com/in/se-hyun-park/",
         description: (
           <>
-✱ I spent 10 years in Singapore, 6 years in Indonesia, and 16 years in Korea. I'm the OG Third-Culture Kid 🤘
+✱ I spent 10 years in Singapore, 6 years in Indonesia, and 16 years in Korea. I&apos;m the OG Third-Culture Kid 🤘
 ✱ I say hellos, pleases, and thank yous to my GPTs and ask them to pick a name (it picked the name “Elis”)
-✱ I'm really really really scared of cockroaches. Fantastic trait to have when you live in Singapore. I get panic attacks, so I wouldn’t joke about them if I were you 😬
-✱ I don't say this about any of my talents, but my music taste is out of this world. Chefs kiss
-✱ I am sensitive both mentally and physically, so I have things like IBS and anxiety from time to time. But it also means I’m meticulous and can read rooms well. I’ve learned to embrace this trait as a strength, not a weakness ⭐️
+✱ I&apos;m really really really scared of cockroaches. Fantastic trait to have when you live in Singapore. I get panic attacks, so I wouldn&apos;t joke about them if I were you 😬
+✱ I don&apos;t say this about any of my talents, but my music taste is out of this world. Chefs kiss
+✱ I am sensitive both mentally and physically, so I have things like IBS and anxiety from time to time. But it also means I&apos;m meticulous and can read rooms well. I&apos;ve learned to embrace this trait as a strength, not a weakness ⭐️
 ✱ Family is my most important treasure! 
 ✱ I like travelling to cities with nice parks. My favourite cities so far include Paris, Melbourne, and Tokyo — some call it basic, I call it classic
 ✱ I collect postcards, moderately priced prints, and Stitch figurines. I really adore Stitch, I wish I could have him as a pet
@@ -138,7 +138,7 @@ My journey started in psychology and counselling, working with special needs chi
         link: "https://www.linkedin.com/in/tobygail/",
         description: (
           <>
-            Practicing the art of Tsundoku, where I find myself buying new books before I’ve finished my current ones.
+            Practicing the art of Tsundoku, where I find myself buying new books before I&apos;ve finished my current ones.
           </>
         ),
       },
@@ -170,7 +170,7 @@ My journey started in psychology and counselling, working with special needs chi
         link: "https://www.linkedin.com/in/sircarayan/",
         description: (
           <>
-            I'm Ayan, a Product Management leader with over a decade of experience in building 0 to 1 to market-fit products. I specialize in AI solutions and executing GTM strategies at scale for both B2B and B2C verticals.
+            I&apos;m Ayan, a Product Management leader with over a decade of experience in building 0 to 1 to market-fit products. I specialize in AI solutions and executing GTM strategies at scale for both B2B and B2C verticals.
 
 Currently, I am responsible for Product Growth, scaling AI-powered products to drive traffic, conversion, and market share.
           </>
@@ -194,7 +194,7 @@ A self-starter, she focuses on enhancing UX, resolving complex user issues, prod
           <>
            I love building innovative tech products that make a difference. I believe in putting people first and using technology as a tool to drive positive change. What excites me most is seeing the impact, not just the cool tech itself. 
 
-My work has been all about launching and growing ambitious projects, pushing the boundaries of what's possible, especially in global commerce. I've been lucky to do this all over the world, working across different cultures, and with amazing people.
+My work has been all about launching and growing ambitious projects, pushing the boundaries of what&apos;s possible, especially in global commerce. I&apos;ve been lucky to do this all over the world, working across different cultures, and with amazing people.
           </>
         ),
       },
@@ -213,7 +213,7 @@ I love experimenting which has taken me from solving various problems in hardwar
         link: "https://www.linkedin.com/in/elizabethlimsm/",
         description: (
           <>
-         I build products that transform how government operates at a national scale - from AI-powered citizen- & agency-facing applications, to national digital signing infrastructure. As an ex-data scientist turned PM, I bring hands-on technical depth and strategic product thinking to complex challenges, delivering faster results by understanding what's technically possible and what users actually need.
+         I build products that transform how government operates at a national scale - from AI-powered citizen- &amp; agency-facing applications, to national digital signing infrastructure. As an ex-data scientist turned PM, I bring hands-on technical depth and strategic product thinking to complex challenges, delivering faster results by understanding what&apos;s technically possible and what users actually need.
           </>
         ),
       },
@@ -250,7 +250,7 @@ Skilled in the entire model development pipeline, from data collection and clean
         link: "https://www.linkedin.com/in/michellealyness/",
         description: (
           <>
-            I am extremely passionate about helping people grow their business. I have spent the last 20+ years working with channel partners of all shapes, sizes and business models including ISV's, SI's, VAR’s, OEM’s, VADs and Cloud partners. Whilst each Partner’s business cycle is unique, the constant goal is to help grow their business. I have consistently helped partners to identify and evaluate new investment opportunities, shape solutions and define go-to-market strategies. I have coached partners on how to successfully engage with large IT vendors and their sales force. 
+            I am extremely passionate about helping people grow their business. I have spent the last 20+ years working with channel partners of all shapes, sizes and business models including ISV&apos;s, SI&apos;s, VAR’s, OEM’s, VADs and Cloud partners. Whilst each Partner’s business cycle is unique, the constant goal is to help grow their business. I have consistently helped partners to identify and evaluate new investment opportunities, shape solutions and define go-to-market strategies. I have coached partners on how to successfully engage with large IT vendors and their sales force. 
           </>
         ),
       },
