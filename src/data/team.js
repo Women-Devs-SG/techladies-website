@@ -17,6 +17,10 @@ const team = [
     thumbnail: "/team/mentorship2021/softwareengineering/salonikaur.png",
     name: "Saloni Kaur",
   },
+    {
+    thumbnail: "/team/eileenchua.jpeg",
+    name: "Eileen Chua",
+  },
 ]
 
 export default team;
