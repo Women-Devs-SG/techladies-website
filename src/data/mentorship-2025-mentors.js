@@ -402,12 +402,11 @@ export const mentorsData = {
           <>
             🔹 Senior Data Scientist | AI Research Engineer | NLP & Deep
             Learning Enthusiast
-            <br />
-            <br /> I specialize in building predictive AI models that drive
-            real-world impact—from ideation to deployment, ensuring seamless
-            integration with tech products. My vision is to augment business
-            functionalities with AI, creating ecosystems powered by natural,
-            human-like interactions through NLP and deep learning.
+            <br /> <br /> I specialize in building predictive AI models that
+            drive real-world impact—from ideation to deployment, ensuring
+            seamless integration with tech products. My vision is to augment
+            business functionalities with AI, creating ecosystems powered by
+            natural, human-like interactions through NLP and deep learning.
           </>
         ),
       },
@@ -417,13 +416,13 @@ export const mentorsData = {
         description: (
           <>
             🚀 Data & Machine Learning Engineer | AWS Certified | Building
-            Scalable MLOps & Data Platforms Specialised in designing and
-            deploying scalable DataOps and MLOps platforms on AWS/GCP,
-            leveraging distributed computing, cloud-native architectures, and
-            automation to accelerate machine learning adoption. With an MS in
-            Business Analytics from NUS, my expertise spans Big Data
-            engineering, ML model lifecycle management, LLMOps, and cloud
-            infrastructure optimization.
+            Scalable MLOps & Data Platforms <br /> <br /> Specialised in
+            designing and deploying scalable DataOps and MLOps platforms on
+            AWS/GCP, leveraging distributed computing, cloud-native
+            architectures, and automation to accelerate machine learning
+            adoption. With an MS in Business Analytics from NUS, my expertise
+            spans Big Data engineering, ML model lifecycle management, LLMOps,
+            and cloud infrastructure optimization.
           </>
         ),
       },
