@@ -507,7 +507,7 @@ export const mentorsData = {
             AI Engineer @ GoNetZero™ <br />
             <br />
             Passionate about shaping the future through AI innovation and
-            data-driven solutions. With a Master&amp;'s in AI and industry
+            data-driven solutions. With a Master&amp;s in AI and industry
             experience in developing and deploying robust data-intensive
             applications, I possess a unique blend of expertise in data
             engineering, machine learning, generative AI, and MLOps. My journey
