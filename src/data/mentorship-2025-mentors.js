@@ -85,6 +85,22 @@ export const mentorsData = {
           </>
         ),
       },
+      {
+        title: "Bala Sivagnanam",
+        link: "https://www.linkedin.com/in/balasivgn/",
+        description: (
+          <>
+            Leading technology at BalanceFlo.ai — on a mission to democratise
+            ergonomic wellness by harnessing the power of AI
+            <br />
+            <br />
+            Tech co-founder hustling to make ergonomics accessible for everyone,
+            harnessing the power of AI. I work with teams to create, launch, and
+            scale user-first products, with over a decade of hands-on experience
+            in UX, design systems, and engineering.
+          </>
+        ),
+      },
     ],
   },
   ux: {
@@ -163,10 +179,9 @@ export const mentorsData = {
         link: "https://www.linkedin.com/in/se-hyun-park/",
         description: (
           <>
-            ✱ I spent 10 years in Singapore, 6 years in Indonesia, and 16 years
-            in Korea. I&apos;m the OG Third-Culture Kid 🤘 ✱ Working with some
-            of the coolest people on making govt websites cheaper, accessible,
-            and readable.
+            Se Hyun is a product designer with 6 years of experience, currently
+            at Open Government Products. She&amp;s passionate about helping
+            designers communicate and showing the impact of their work.
           </>
         ),
       },
@@ -189,6 +204,22 @@ export const mentorsData = {
             balanced combination of creative and technical qualities. I
             specialise in bridging the gap between designers and programmers,
             covering all areas and layers of media and software development.
+          </>
+        ),
+      },
+      {
+        title: "Bala Sivagnanam",
+        link: "https://www.linkedin.com/in/balasivgn/",
+        description: (
+          <>
+            Leading technology at BalanceFlo.ai — on a mission to democratise
+            ergonomic wellness by harnessing the power of AI
+            <br />
+            <br />
+            Tech co-founder hustling to make ergonomics accessible for everyone,
+            harnessing the power of AI. I work with teams to create, launch, and
+            scale user-first products, with over a decade of hands-on experience
+            in UX, design systems, and engineering.
           </>
         ),
       },
@@ -423,6 +454,84 @@ export const mentorsData = {
             adoption. With an MS in Business Analytics from NUS, my expertise
             spans Big Data engineering, ML model lifecycle management, LLMOps,
             and cloud infrastructure optimization.
+          </>
+        ),
+      },
+      {
+        title: "Bala Sivagnanam",
+        link: "https://www.linkedin.com/in/balasivgn/",
+        description: (
+          <>
+            Leading technology at BalanceFlo.ai — on a mission to democratise
+            ergonomic wellness by harnessing the power of AI
+            <br />
+            <br />
+            Tech co-founder hustling to make ergonomics accessible for everyone,
+            harnessing the power of AI. I work with teams to create, launch, and
+            scale user-first products, with over a decade of hands-on experience
+            in UX, design systems, and engineering.
+          </>
+        ),
+      },
+      {
+        title: "Shoeb Shaikh",
+        link: "https://www.linkedin.com/in/shoeb786/",
+        description: <>Senior AI Data Scientist @ SIA Engineering Company</>,
+      },
+      {
+        title: "Samyukta Hariharan",
+        link: "https://www.linkedin.com/in/samyukta-hariharan/",
+        description: (
+          <>
+            Data Engineering Specialist @ SAP
+            <br />
+            <br />I am a data engineer with expertise spanning Big Data
+            technologies, AI, analytics and cloud. I design and implement
+            scalable solutions that unlock valuable insights and improve
+            decision-making.
+          </>
+        ),
+      },
+      {
+        title: "Gayathri Saranathan",
+        link: "https://www.linkedin.com/in/gayathri-saranathan-2346a6183/",
+        description: (
+          <>AI Researcher @ Hewlett Packard Labs | Foundation Model Research</>
+        ),
+      },
+      {
+        title: "Dolly Agarwal",
+        link: "https://www.linkedin.com/in/dolly-agarwal/",
+        description: (
+          <>
+            AI Engineer @ GoNetZero™ <br />
+            <br />
+            Passionate about shaping the future through AI innovation and
+            data-driven solutions. With a Master&amp;'s in AI and industry
+            experience in developing and deploying robust data-intensive
+            applications, I possess a unique blend of expertise in data
+            engineering, machine learning, generative AI, and MLOps. My journey
+            spans from spearheading transformative projects that bridge business
+            challenges with technical solutions, to leveraging AI for meaningful
+            societal impact in the nonprofit sector.
+          </>
+        ),
+      },
+      {
+        title: "Mardiana Tumadi",
+        link: "https://www.linkedin.com/in/mardiana-tumadi/",
+        description: (
+          <>
+            Digital Business Analyst (Data Analytics) @ GovTech Singapore
+            <br />
+            <br />
+            Results-oriented Data Analytics professional with a decade of
+            experience in technical roles, primarily in data governance and
+            architecture, product management, ICT compliance and governance, and
+            business operations. Demonstrated ability to analyse complex data,
+            solve problems, and deliver impactful solutions in fast-paced
+            environments. Committed to continuous learning and professional
+            growth.
           </>
         ),
       },
