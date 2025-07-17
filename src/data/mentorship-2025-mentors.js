@@ -180,7 +180,7 @@ export const mentorsData = {
         description: (
           <>
             Se Hyun is a product designer with 6 years of experience, currently
-            at Open Government Products. She&amp;s passionate about helping
+            at Open Government Products. She&apos;s passionate about helping
             designers communicate and showing the impact of their work.
           </>
         ),
@@ -334,7 +334,7 @@ export const mentorsData = {
         ),
       },
       {
-        title: "Wui Siew Tan",
+        title: "Wui Siew Tan (Audy)",
         link: "https://www.linkedin.com/in/wuisiew/",
         description: (
           <>
@@ -507,7 +507,7 @@ export const mentorsData = {
             AI Engineer @ GoNetZero™ <br />
             <br />
             Passionate about shaping the future through AI innovation and
-            data-driven solutions. With a Master&amp;s in AI and industry
+            data-driven solutions. With a Master&apos;s in AI and industry
             experience in developing and deploying robust data-intensive
             applications, I possess a unique blend of expertise in data
             engineering, machine learning, generative AI, and MLOps. My journey
