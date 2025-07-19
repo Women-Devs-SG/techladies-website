@@ -223,6 +223,29 @@ export const mentorsData = {
           </>
         ),
       },
+      {
+        title: "Fazzy Jaafar",
+        link: "https://www.linkedin.com/in/fazzyjaafar",
+        description: (
+          <>
+            Product Designer @ SPH Media
+            <br />
+            <br />
+            Hello! 9 years ago, my love for anything creative got me an amazing
+            opportunity to kickstart my journey as a Product Designer and I’ve
+            never looked back since. I must say, I’m enjoying every single bit
+            of everything. The passion to be the bridge between the conceptual
+            and visual elements of user experience made me realize the
+            importance of a Product Designer. We are the voice of our users and
+            hold the biggest responsibility in making users’ digital journey
+            from start to the end as painless as possible. Over the years in
+            this field, it has given me multiple opportunities to learn and
+            appreciate user-centric processes and at the same time be empathetic
+            to business stakeholders and deliver outcomes that are focused on
+            both end-users and business objectives.
+          </>
+        ),
+      },
     ],
   },
   product: {
