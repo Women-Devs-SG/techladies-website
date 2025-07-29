@@ -86,6 +86,21 @@ export const mentorsData = {
         ),
       },
       {
+        title: "Sabrina L",
+        link: "https://www.linkedin.com/in/sabrinal-498970113/",
+        description: (
+            <>
+              Software(Backend) Engineer | AWS Certified.
+              <br />
+              <br />
+              Backend engineer looking for interesting problems to solve, specifically in the gaming, fintech and identity industry. 
+              I think of myself as a builder rather than just software engineer, 
+              and I have been involved in varying degrees in DevOps, architecture, engineering, and data governance. 
+              I love working as a part of a team, but am also great at solo missions.
+          </>
+        ),
+      },         
+      {
         title: "Bala Sivagnanam",
         link: "https://www.linkedin.com/in/balasivgn/",
         description: (
@@ -103,7 +118,7 @@ export const mentorsData = {
       },
     ],
   },
-  ux: {
+    ux: {
     title: "UI/UX Design",
     mentors: [
       {
