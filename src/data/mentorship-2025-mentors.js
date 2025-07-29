@@ -86,9 +86,9 @@ export const mentorsData = {
         ),
       },
       {
-        title: "Sabrina L",
-        link: "https://www.linkedin.com/in/sabrinal-498970113/",
-        description: (
+         title: "Sabrina L",
+         link: "https://www.linkedin.com/in/sabrinal-498970113/",
+         description: (
             <>
               🔥🧯 Software(Backend) Engineer | AWS Certified | ex-ThisAndThat | dubdubdub.
               <br />
