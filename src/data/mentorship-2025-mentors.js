@@ -85,12 +85,12 @@ export const mentorsData = {
           </>
         ),
       },
-        {
-          title: "Sabrina L",
-          link: "https://www.linkedin.com/in/sabrinal-498970113/",
-          description: (
-              <>
-                🔥🧯 Software(Backend) Engineer | AWS Certified | ex-ThisAndThat | dubdubdub.
+      {
+        title: "Sabrina L",
+        link: "https://www.linkedin.com/in/sabrinal-498970113/",
+        description: (
+            <>
+              🔥🧯 Software(Backend) Engineer | AWS Certified | ex-ThisAndThat | dubdubdub.
               <br />
               <br /> 
               backend engineer looking for interesting problems to solve, specifically in the gaming, fintech and identity industry. 
@@ -99,8 +99,8 @@ export const mentorsData = {
               and I have been involved in varying degrees in devops, architecture, engineering, and data governance. 
               I love working as a part of a team, but am also great at "solo missions" (though it does get lonely 🐈 ).
           </>
-          ),
-        },         
+        ),
+      },         
       {
         title: "Bala Sivagnanam",
         link: "https://www.linkedin.com/in/balasivgn/",
