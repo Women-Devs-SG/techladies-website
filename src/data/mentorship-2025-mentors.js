@@ -85,7 +85,7 @@ export const mentorsData = {
           </>
         ),
       },
-          {
+        {
             title: "Sabrina L",
             link: "https://www.linkedin.com/in/sabrinal-498970113/",
             description: (
@@ -98,8 +98,8 @@ export const mentorsData = {
               I think of myself as a builder rather than just "software engineer", 
               and I have been involved in varying degrees in devops, architecture, engineering, and data governance. 
               I love working as a part of a team, but am also great at "solo missions" (though it does get lonely 🐈 ).
-              </>
-           ),
+            </>
+          ),
         },         
       {
         title: "Bala Sivagnanam",
