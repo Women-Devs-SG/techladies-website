@@ -86,18 +86,17 @@ export const mentorsData = {
         ),
       },
       {
-         title: "Sabrina L",
-         link: "https://www.linkedin.com/in/sabrinal-498970113/",
-         description: (
+        title: "Sabrina L",
+        link: "https://www.linkedin.com/in/sabrinal-498970113/",
+        description: (
             <>
-              🔥🧯 Software(Backend) Engineer | AWS Certified | ex-ThisAndThat | dubdubdub.
+              Software(Backend) Engineer | AWS Certified.
               <br />
-              <br /> 
-              backend engineer looking for interesting problems to solve, specifically in the gaming, fintech and identity industry. 
-              sales engineering sounds fun, too - sab loves yapping.
-              I think of myself as a builder rather than just "software engineer", 
-              and I have been involved in varying degrees in devops, architecture, engineering, and data governance. 
-              I love working as a part of a team, but am also great at "solo missions" (though it does get lonely 🐈 ).
+              <br />
+              Backend engineer looking for interesting problems to solve, specifically in the gaming, fintech and identity industry. 
+              I think of myself as a builder rather than just software engineer, 
+              and I have been involved in varying degrees in DevOps, architecture, engineering, and data governance. 
+              I love working as a part of a team, but am also great at solo missions.
           </>
         ),
       },         
@@ -119,7 +118,7 @@ export const mentorsData = {
       },
     ],
   },
-  ux: {
+    ux: {
     title: "UI/UX Design",
     mentors: [
       {
